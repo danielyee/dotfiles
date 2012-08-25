@@ -6,7 +6,6 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-alias pau='pacaur -Syu --noconfirm --noedit --develop'
 alias java7='source /etc/profile'
 alias java6='source /opt/sun-java6/envsetup.sh'
 
