@@ -53,7 +53,7 @@
 (add-hook 'slime-repl-mode-hook 'override-slime-repl-bindings-with-paredit)
 
 ;;multi-term
-;(setq multi-term-program "/bin/bash")
+(setq multi-term-program "/bin/bash")
 
 ;;auto-complete
 (add-to-list 'load-path "~/.emacs.d")
