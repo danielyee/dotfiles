@@ -38,28 +38,28 @@
 ;(load (expand-file-name "~/quicklisp/slime-helper.el"))
 ;(setq inferior-lisp-program "sbcl")
 
-;;paredit
-(require 'paredit)
-(autoload 'paredit-mode "paredit"
-"Minor mode for pseudo-structrually editing Lisp code." t)
-(add-hook 'emacs-lisp-mode-hook (lambda () (paredit-mode +1)))
-(add-hook 'lisp-mode-hook (lambda () (paredit-mode +1)))
-(add-hook 'lisp-interaction-mode-hook (lambda () (paredit-mode +1)))
-(add-hook 'slime-repl-mode-hook (lambda () (paredit-mode +1)))
-(add-hook 'clojure-mode-hook (lambda () (paredit-mode +1)))
-(defun override-slime-repl-bindings-with-paredit ()
-(define-key slime-repl-mode-map
-  (read-kbd-macro paredit-backward-delete-key) nil))
-(add-hook 'slime-repl-mode-hook 'override-slime-repl-bindings-with-paredit)
-
-;;multi-term
-(setq multi-term-program "/bin/bash")
-
-;;auto-complete
-(add-to-list 'load-path "~/.emacs.d")
-(require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
-(ac-config-default)
-
-;;magit
-(autoload 'magit-status "magit" nil t)
+;;;paredit
+;(require 'paredit)
+;(autoload 'paredit-mode "paredit"
+;"Minor mode for pseudo-structrually editing Lisp code." t)
+;(add-hook 'emacs-lisp-mode-hook (lambda () (paredit-mode +1)))
+;(add-hook 'lisp-mode-hook (lambda () (paredit-mode +1)))
+;(add-hook 'lisp-interaction-mode-hook (lambda () (paredit-mode +1)))
+;(add-hook 'slime-repl-mode-hook (lambda () (paredit-mode +1)))
+;(add-hook 'clojure-mode-hook (lambda () (paredit-mode +1)))
+;(defun override-slime-repl-bindings-with-paredit ()
+;(define-key slime-repl-mode-map
+;  (read-kbd-macro paredit-backward-delete-key) nil))
+;(add-hook 'slime-repl-mode-hook 'override-slime-repl-bindings-with-paredit)
+;
+;;;multi-term
+;(setq multi-term-program "/bin/bash")
+;
+;;;auto-complete
+;(add-to-list 'load-path "~/.emacs.d")
+;(require 'auto-complete-config)
+;(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+;(ac-config-default)
+;
+;;;magit
+;(autoload 'magit-status "magit" nil t)
