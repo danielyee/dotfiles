@@ -9,46 +9,46 @@ URxvt.perl-ext-common: default,tabbed
 URxvt.font: xft:Terminus:8
 URxvt.saveLines: 65535
 
-!!Zenburn theme
-
-!BLK Cursor
-*.color0      : #000d18
-*.color8      : #000d18
-
-!RED Tag
-*.color1      : #e89393
-*.color9      : #e89393
-
-!GRN SpecialKey
-*.color2      : #9ece9e
-*.color10     : #9ece9e
-
-!YEL Keyword
-*.color3      : #f0dfaf
-*.color11     : #f0dfaf
-
-!BLU Number
-*.color4      : #8cd0d3
-*.color12     : #8cd0d3
-
-!MAG Precondit
-*.color5      : #c0bed1
-*.color13     : #c0bed1
-
-!CYN Float
-*.color6      : #dfaf8f
-*.color14     : #dfaf8f
-
-!WHT Search
-*.color7      : #efefef
-*.color15     : #efefef
-
-!TXT Normal, Normal, Cursor
-*.background  : #1f1f1f
-*.foreground  : #dcdccc
-*.cursorColor : #8faf9f
-
-!HLT Include, StatusLine, ErrorMsg
-*.colorBD     : #ffcfaf
-*.colorUL     : #ccdc90
-*.colorIT     : #80d4aa
+!!!Zenburn theme
+!
+!!BLK Cursor
+!*.color0      : #000d18
+!*.color8      : #000d18
+!
+!!RED Tag
+!*.color1      : #e89393
+!*.color9      : #e89393
+!
+!!GRN SpecialKey
+!*.color2      : #9ece9e
+!*.color10     : #9ece9e
+!
+!!YEL Keyword
+!*.color3      : #f0dfaf
+!*.color11     : #f0dfaf
+!
+!!BLU Number
+!*.color4      : #8cd0d3
+!*.color12     : #8cd0d3
+!
+!!MAG Precondit
+!*.color5      : #c0bed1
+!*.color13     : #c0bed1
+!
+!!CYN Float
+!*.color6      : #dfaf8f
+!*.color14     : #dfaf8f
+!
+!!WHT Search
+!*.color7      : #efefef
+!*.color15     : #efefef
+!
+!!TXT Normal, Normal, Cursor
+!*.background  : #1f1f1f
+!*.foreground  : #dcdccc
+!*.cursorColor : #8faf9f
+!
+!!HLT Include, StatusLine, ErrorMsg
+!*.colorBD     : #ffcfaf
+!*.colorUL     : #ccdc90
+!*.colorIT     : #80d4aa
