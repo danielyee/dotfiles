@@ -8,6 +8,8 @@ URxvt.scrollTtyKeypress: true
 URxvt.perl-ext-common: default,tabbed
 URxvt.font: xft:Terminus:8
 URxvt.saveLines: 65535
+URxvt.background:black
+URxvt.foreground:grey
 
 !!!Zenburn theme
 !
