@@ -1,0 +1,19 @@
+;; -*-lisp-*-
+
+(in-package :stumpwm)
+
+;; change the prefix key to C-a
+;;(set-prefix-key (kbd "C-a"))
+
+(define-key *top-map* (kbd "s-j") "move-focus down")
+(define-key *top-map* (kbd "s-k") "move-focus up")
+(define-key *top-map* (kbd "s-h") "move-focus left")
+(define-key *top-map* (kbd "s-l") "move-focus right")
+
+(define-key *top-map* (kbd "s-J") "move-window down")
+(define-key *top-map* (kbd "s-K") "move-window  up")
+(define-key *top-map* (kbd "s-H") "move-window left")
+(define-key *top-map* (kbd "s-L") "move-window right")
+
+(define-key *top-map* (kbd "s-d") "exec dmenu_run")
+(define-key *top-map* (kbd "s-Tab") "pull-hidden-next")

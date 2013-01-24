@@ -1,0 +1,42 @@
+escape C-a
+
+bind d exec dmenu_run
+
+definekey top s-Down    focusdown
+definekey top s-Up      focusup
+definekey top s-Left    focusleft
+definekey top s-Right   focusright
+
+definekey top s-S-Down    exchangedown
+definekey top s-S-Up      exchangeup
+definekey top s-S-Left    exchangeleft
+definekey top s-S-Right   exchangeright
+
+definekey top s-R    resize
+definekey top s-h    hsplit
+definekey top s-v    vsplit
+definekey top s-H    hsplit 2/3
+definekey top s-V    vsplit 2/3
+definekey top s-c    next
+definekey top s-p    prev
+definekey top s-r   remove
+definekey top s-w   windows
+definekey top s-b   banish
+
+definekey top s-semicolon  colon
+definekey top s-slash      help root
+definekey top s-question   help top
+
+definekey top s-d    exec dmenu_run
+definekey top s-t    exec urxvt
+definekey top s-W    exec luakit
+definekey top s-m    exec ~/.scripts/mymenu
+
+definekey top s-Q      quit
+definekey top s-C-r    restart
+definekey top s-C-s   source .ratpoisonkeys
+
+newkmap super-x
+definekey super-x B    set padding 0 15 0 0
+definekey super-x b    set padding 0 0 0 0
+definekey top s-x        readkey super-x
