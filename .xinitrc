@@ -1,11 +1,12 @@
 #!/bin/sh
 
 [[ -e ~/.Xresources ]] && xrdb -merge ~/.Xresources
+[[ -e ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
 
-#wmname LG3D &
+wmname LG3D &
 #volumeicon &
 xsetroot -solid black
 xsetroot -cursor_name left_ptr
 #tint2 &
 #exec ratpoison
-exec ~/git/stumpwm/stumpwm
+exec stumpwm
